@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Invent_NaughtyOrNice>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Invent_NaughtyOrNice>
+    </modules>
+</config>

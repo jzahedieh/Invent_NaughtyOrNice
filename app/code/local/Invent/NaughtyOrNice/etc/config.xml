@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Invent_NaughtyOrNice>
+            <version>0.1.0</version>
+        </Invent_NaughtyOrNice>
+    </modules>
+    <global>
+        <models>
+            <invent_naughtyornice>
+                <class>Invent_NaughtyOrNice_Model</class>
+                <resourceModel>invent_naughtyornice_resource</resourceModel>
+            </invent_naughtyornice>
+            <invent_naughtyornice_resource>
+                <class>Invent_NaughtyOrNice_Model_Resource</class>
+                <entities>
+                    <list>
+                        <table>invent_naughtyornice_list</table>
+                    </list>
+                </entities>
+            </invent_naughtyornice_resource>
+        </models>
+        <helpers>
+            <invent_naughtyornice>
+                <class>Invent_NaughtyOrNice_Helper</class>
+            </invent_naughtyornice>
+        </helpers>
+        <resources>
+            <invent_naughtyornice_setup>
+                <setup>
+                    <module>Invent_NaughtyOrNice</module>
+                </setup>
+            </invent_naughtyornice_setup>
+        </resources>
+    </global>
+</config>
